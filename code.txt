@@ -1,0 +1,45 @@
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// 1 : Kiểu dữ liệu
+		// Nó có 2 loại :
+			// + kiểu dữ liệu nguyên thủy
+			// + kiểu dữ liệu vùng nhớ (Object)
+		// String (Chuỗi) 
+		// int (số nguyên) 
+		// float (số thực)
+		// double (số thực)
+		// boolean (kiểu luận lý) (chỉ có 2 giá trị true hoặc false)
+		
+		// 2 : Khai báo biến
+		// kieudulieu tenbien = giatri
+		// String name = "Nguyễn Văn Tèo";
+		// int age = 10;
+		// float weight = 15.5f;
+		// double height = 1.73;
+		// boolean isOnline = true;
+		// System.out.println(name);
+		// System.out.println(age);
+		// System.out.println(weight);
+		// System.out.println(height);
+		// System.out.println(isOnline);
+		
+		// 3 : Toán tử
+		int a = 5;
+		// a += 1; giông với a = a +1;
+		// a++
+		// ++a
+		int b = a++;
+		System.out.println(b);
+		System.out.println(a);
+		
+	}
+}
