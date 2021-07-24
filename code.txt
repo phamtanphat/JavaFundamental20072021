@@ -41,5 +41,92 @@ class Ideone
 		System.out.println(b);
 		System.out.println(a);
 		
+//        int a = 5;
+//        int b = 10;
+//
+//        int ketqua = a++ - --b + b-- + a++;
+//
+//         5 - --b + b-- + a++ // a = 6 , b = 10;
+//         5 - 9 + b-- + a++ // a = 6 , b = 9;
+//         5 - 9 + 9 + a++ // a = 6 , b = 8;
+//         5 - 9 + 9 + 6 // a = 7 , b = 8;
+//
+//        System.out.println(ketqua);
+
+        // 4 : Câu điều kiện
+
+//        int a = 15;
+//        int b = 10;
+//
+//        if (a > b){
+//            System.out.println("1");
+//        }else if (a == b){
+//            System.out.println("0");
+//        }else{
+//            System.out.println("-1");
+//        }
+//
+//         a > b => 1
+//         a == b => 0
+//         a < b => -1
+
+        // Xử lý cho việc đăng nhập
+        // có 2 biến username , password
+        // username phải 6 ký tự và password phải trên 6 ký tự
+
+        // Nếu trường hợp không thỏa in ra Invalid login
+        // Nếu trường hợp thỏa điều kiện Login success
+
+//        String username = "abcdef";
+//        String password = "1234567";
+//
+//        // Lấy kích thước chuỗi : .length()
+//
+//        if (username.length() >= 6 && password.length() > 6){
+//            System.out.println("Login Successful");
+//        }else {
+//            System.out.println("Invalid Login");
+//        }
+
+//        int a = 5;
+//
+//        if ( a == 0 || a > 4){
+//            System.out.println("Thỏa");
+//        }else{
+//            System.out.println("Khong thỏa");
+//        }
+
+//        Toán tử ba ngôi
+
+//        int a = 10;
+//
+//        if (a == 0){
+//            a = 10;
+//        }
+//        System.out.println(a);
+
+        int a = 12;
+        int b = 10;
+//
+//        if (a > b){
+//            System.out.println("A lớn hơn B");
+//        }else{
+//            System.out.println("A sẽ bé hơn bằng B");
+//        }
+
+//        (bieu thuc) ? giá trị cho trường hợp true : giá trị cho trường hợp là false
+
+//        String message = (a > b) ? "A lớn hơn B" : "A bé hơn hoặc bằng B";
+//
+//        System.out.println(message);
+
+//         a > b => 1
+//         a == b => 0
+//         a < b => -1
+
+        int result = (a > b) ? 1 : ((a == b) ? 0 : -1);
+        System.out.println(result);
+
+
 	}
 }
